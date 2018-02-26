@@ -110,7 +110,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         }
         
         let planeNode = self.createPlane(withPlaneAnchor:planeAnchor)
-
         node.addChildNode(planeNode)
     }
     
